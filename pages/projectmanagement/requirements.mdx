@@ -1,0 +1,36 @@
+# Requerimientos
+
+Una vez que definimos los *Milestones*, cada épica debe colocarse en un documento de Requerimientos del Producto.
+
+Éste documento sagrado es la fuente de la verdad, y será trasladado a lo largo del proyecto por todos los participantes, desde Diseño hasta Desarrollo.
+
+Éste documento puede tener:
+
+- Introducción
+- OKRs
+- Requerimientos
+- Entregables
+- Preguntas
+
+Los requerimientos deben mantenerse actualizados, asegurándonos que el próximo que los abra tenga acceso al trabajo realizado anteriormente.
+
+En **Balloon Group** implementamos Behaviour Driven Development, o BDD,como metodología para redacción de requerimientos y criterios de aceptación. Al enfocarnos en los comportamientos del usuario, o del sistema, podemos evitar un montón de confuciones, 
+horas de QA redactando casos de uso, y malentendidos entre lo que el cliente quería que haga el producto, y lo que entendimos que quería.
+
+Coloca a los equipos que hablan el lenguaje técnico, a los que hablan el lenguaje de negocios, y a los que tienen dominio sobre el campo del producto, en el mismo nivel, permitiendo una comunicación fluída y libre de interpretación.
+
+En particular, el lenguaje utilizado es Gherkin, que permite redactar los comportamientos de forma clara y simple utilizando las expresiones:
+
+- Dado que (Given)
+- Cuando (When)
+- Entonces (Then)
+
+```
+Escenario: El ususario quiere loguearse en el sistema
+
+    Dado que: el usuario está en la página de inicio de sesión
+    Cuando: Ingresa sus datos
+    Y: Son correctos
+    Entonces: Ingesa exitosamente al sitio
+```
+Sencillamente podemos convertir una historia de usuario en un criterio de aceptación con este método. El hecho de que se escriban en conjunto y no es solo responsabilidad del *Product Owner*, permite al equipo de desarrollo aportar una nueva mirada muy bienvenida.

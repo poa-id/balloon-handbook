@@ -1,0 +1,24 @@
+# Testing
+
+Usualmente, el Software Testing intenta ejecutar una interfaz o parte de ella para encontrar defectos. Son un proceso iterativo, ya que cuando se arregla un bug, puede descubrir otros que estabn escondidos previamente, o crear nuevos.
+Es una manera clave de medir la calidad del código.
+
+### Unit Testing
+
+Es cuando testeamos las partes más pequeñas y fragmentadas del código. Suele tomar pocos inputs, y se testea contra un output esperado. Su propósito es garantizar que cada unidad/componente funciona como debiera.
+
+Al testear las partes más granulares del código, más seguido, el riesgo de que un error se contag al resto del producto es mucho menor. El código se vuelve mucho mas confiable, y la confianza del equipo en mantener y cambiar el código aumenta mucho.
+
+### Tests de Integración
+
+Un test de integración es cuando los componentes son combinados y testeados como un grupo. Su proposito es exponer fallas cuando las unidades trabajan en conjuntos.
+Se conducen para evaluar el cumplimiento de dichos componentes con su función específica dentro de los requerimientos funcionales
+
+### End-to-End Testing
+
+E2E Testing es testear el flujo de una interfaz desde el principio hasta el final. Su propósito es simular un usuario real, en el mundo rel, y validad la integración de los componentes y las bases de datos.
+
+Se llevan a cabo bajo escenarios del mundo real, tanto en hardware, red, base de datos, backend, y otras aplicaciones.
+
+La razón principal de llevar a cabo estos tests, es determinar las dependencias de una aplicación, tanto como asegurar que la comunicación entre los componentes es la correcta. Se suele realizar luego de los tests de unidad y de integración.
+
